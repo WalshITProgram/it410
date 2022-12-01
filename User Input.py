@@ -10,7 +10,7 @@ while check:
         if emp_id:
             try:
                 int(emp_id)
-                if len(emp_id) < 7:
+                if len(emp_id) < 8:
                     emp_id_check = True
                 else:
                     emp_id_check = False
